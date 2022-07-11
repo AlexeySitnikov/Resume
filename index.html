@@ -5,8 +5,81 @@
     <title>Alexey Sitnikov Resume</title>
   </head>
   <body>
-    <h1>Alexey Sitnikov</h1>
-    <p><em>наклонный текст с помощью тега em</em></p>
-    <p>do somthing 2</p>
+
+    <table cellspacing="15">
+      <tr>
+        <td>
+          <img src="i.jpeg" alt="Real man photo" width="200">
+        </td>
+        <td>
+          <h1>Alexey Sitnikov</h1>
+          <p><em>наклонный текст с помощью <strong>тега em</em> + дополнительно выделение жирным</strong></p>
+          <p>do somthing 2</p>
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <h2>Social network</h2>
+      <ul type="square">
+        <li><a href="https://yandex.ru" target="_blank">yandex</a></li>
+        <li>Second point</li>
+      </ul>
+
+      <hr>
+
+    <h2>Hobby</h2>
+      <ol type="I">
+        <li>Hobby #1</li>
+        <li>Hobby #2</li>
+      </ol>
+
+      <h2>Опыт работы</h2>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Company1</td>
+            <td>Position1</td>
+            <td>Long time ago</td>
+          </tr>
+          <tr>
+            <td>Company2</td>
+            <td>Position2</td>
+            <td>Not long time ago</td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>       
+        
+      </table>
+
+      <h2>Something should be written</h2>
+      <a href="new_file.html" target="_blank">Look at list</a>
+
+      <hr>
+      <h2>How to call me</h2>
+      <form action="">
+        <label for="name">Your name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <br>
+
+        <label for="text">Your text</label>
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+
+        <br>
+        <input type="submit" value="Call!">
+      </form>
   </body>
 </html>
