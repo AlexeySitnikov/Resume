@@ -3,33 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <title>Alexey Sitnikov Resume</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="container">
+      <div class="info">
+        <img src="i.jpg" alt="Real man photo" class="avatar" />
 
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="i.jpg" alt="Real man photo" width="200">
-        </td>
-        <td>
-          <h1>Alexey Sitnikov</h1>
-          <p><em>наклонный текст с помощью <strong>тега em</em> + дополнительно выделение жирным</strong></p>
-          <p>do somthing 2</p>
-        </td>
-      </tr>
-    </table>
+        <h1>Alexey Sitnikov</h1>
+        <p>
+          наклонный текст с помощью
+          <strong>тега em + дополнительно выделение жирным</strong>
+        </p>
+        <p>do somthing 2</p>
 
-    <hr>
+        <h4>Social network</h4>
 
-    <h2>Social network</h2>
-      <ul type="square">
-        <li><a href="https://yandex.ru" target="_blank">yandex</a></li>
-        <li>Second point</li>
-      </ul>
+        <a href="https://yandex.ru" target="_blank">yandex</a>
+        |
+        <a href="http://google.com" target="_blank">Second point</a>
+      </div>
 
-      <hr>
+      <hr />
 
-    <h2>Hobby</h2>
+      <h2>Hobby</h2>
       <ol type="I">
         <li>Hobby #1</li>
         <li>Hobby #2</li>
@@ -56,30 +53,36 @@
             <td>Not long time ago</td>
           </tr>
         </tbody>
-        <tfoot></tfoot>       
-        
+        <tfoot></tfoot>
       </table>
 
       <h2>Something should be written</h2>
       <a href="new_file.html" target="_blank">Look at list</a>
 
-      <hr>
+      <hr />
       <h2>How to call me</h2>
       <form action="">
         <label for="name">Your name</label>
-        <input type="text" id="name" placeholder="Enter your name">
-        <br>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <br />
 
         <label for="email">Your email</label>
-        <input type="email" id="email" placeholder="Enter your email">
+        <input type="email" id="email" placeholder="Enter your email" />
 
-        <br>
+        <br />
 
         <label for="text">Your text</label>
         <textarea name="" id="text" cols="30" rows="10"></textarea>
 
-        <br>
-        <input type="submit" value="Call!">
+        <br />
+        <input type="submit" value="Call!" />
       </form>
+      <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
